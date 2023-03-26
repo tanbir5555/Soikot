@@ -1,0 +1,37 @@
+.green{
+    color:#00b7ff;
+}
+.greenBack{
+    background:#ffffff;
+}
+.gradient{
+    background:linear-gradient(90deg,#111111,#101018,#0b2130,#14091b,#070103)
+}
+@media(max-width:800px){
+.gradient{
+    background:linear-gradient(90deg,#111111,#101018,#0b2130,#14091b,#070103)
+
+}
+}
+body{
+    background:#e2e2e2;
+    color:#EEEEEE;
+}
+.paper{
+    background:#212121;
+    box-shadow: 0px 2px 25px rgba(0,0,0,0.76)
+}
+.black{
+    color:#26252A;
+}
+.background{
+    background:#26252A;
+    color:#EEEEEE;
+}
+.contact_paper strong{
+    color: #1b619b;
+  }
+
+.red{
+    color:rgb(255, 53, 53)
+}  
