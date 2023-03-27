@@ -12,7 +12,27 @@
     <link rel="stylesheet" href="slide/style.css" />
     <link rel="stylesheet" href="slide/riot-slider.min.css" />
 
+
+<!-- slide 2 -->
+
+
+<link rel="stylesheet" type="text/css" href="css/qc.slider.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="qcslider.jquery.js?v1.4.3"></script>
+	<script type="text/javascript">
+		$(document).ready(function($){
+			$("#slider").QCslider({duration: 7000});
+		});
+	</script>
+
+
+
+
 <!-- slide -->
+
+
+
+
 
 
     <link rel="icon" href="icons/AFS.png" />
@@ -27,30 +47,42 @@
     <!-- CSS -->
   </head>
   <body>
+
+    <style>
+      .box{
+        width: 10%;
+        box-sizing: border-box;
+      }
+      body{
+        overflow-x:hidden
+      }
+    </style>
     <section>
-      <div class="Nav_container gradient">
-        <div class="container Logo_container">
-          <div class="logo">
-            <div class="Menubar" id="openMenu2">
-              <img src="1x/menubar.png" alt="" />
+      <div class="box">
+        <div class="Nav_container gradient">
+          <div class="container Logo_container">
+            <div class="logo">
+              <div class="Menubar" id="openMenu2">
+                <img src="1x/menubar.png" alt="" />
+              </div>
+              <img
+                id="openMenu"
+                src="img/afnan soikot logo23.png"
+                alt=""
+                srcset=""
+                class="intro_img"
+              />
             </div>
-            <img
-              id="openMenu"
-              src="img/afnan soikot logo23.png"
-              alt=""
-              srcset=""
-              class="intro_img"
-            />
-          </div>
-          <div id="menu" class="menu d-flex justify-content-between">
-            <div class="closeIcon">
-              <img id="closeMenu" src="icons/close.svg" alt="" srcset="" />
+            <div id="menu" class="menu d-flex justify-content-between">
+              <div class="closeIcon">
+                <img id="closeMenu" src="icons/close.svg" alt="" srcset="" />
+              </div>
+              <a href="#Photography" class="nav-link">Photography</a>
+              <a href="#Cinematography" class="nav-link">Cinematography</a>
+              <a href="#Payments" class="nav-link">About us</a>
+              <a href="#Contacts" class="nav-link">Contact</a>
+              
             </div>
-            <a href="#Photography" class="nav-link">Photography</a>
-            <a href="#Cinematography" class="nav-link">Cinematography</a>
-            <a href="#Payments" class="nav-link">About us</a>
-            <a href="#Contacts" class="nav-link">Contact</a>
-            
           </div>
         </div>
       </div>
@@ -194,7 +226,7 @@
     <!-- Services======================== -->
     <!-- Services======================== -->
 
-    <section>
+    <!-- <section>
       <div class="container conn" >
         <div class="small_header text-center mt-5 mb-5">Photography</div>
 
@@ -527,11 +559,30 @@
         </div>
       </div>
       </section>
+ -->
 
 
 
 
 
+      <section class="slide">
+        <div class="slider-container">
+          <ul class="slider-wrapper" id="slider">
+            <li class="slide-current">
+              <img src="img/MY First blog2.jpg"/>
+              <div class="capa"></div>
+            </li>
+            <li class="video" data-type="youtube" data-video="ezss8eybU9o" data-muted="false"></li>
+            <li class="video" data-type="youtube" data-video="BjOBy1nhYH0" data-muted="false"></li>
+            <li class="video" data-type="youtube" data-video="uZaa593ozLI" data-muted="false"></li>
+            <li class="video" data-type="youtube" data-video="WhpbltFzePM" data-muted="false"></li>
+          </ul>
+          <div class="drt-control control-left" id="lft-control"><</div>
+                <div class="drt-control control-right" id="rht-control">></div>
+          <ul class="slider-controls" id="slider-controls"></ul>
+          <div class="tempo-bar" id="barra"></div>
+        </div>
+      </section>
 
 
 
