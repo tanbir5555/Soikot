@@ -23,7 +23,9 @@ section.slide {
   float: left;
   display: block;
   width: 100%;
+  
   height: var(--height-slider);
+  
 }
 @media only screen and (max-width: 766px) {
   section.slide {
@@ -36,7 +38,7 @@ section.slide .slider-container {
   float: left;
   display: block;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
   background-color: #FFFFFF;
 }
@@ -185,3 +187,21 @@ section.slide .slider-container .tempo-bar {
   display: block;
   float: left;
 }
+
+
+.slide_Area{
+  max-width: 1300px;
+  margin: auto;
+  background: #010314;
+}
+.slideBack{
+  background: #010314;
+  width: 100%;
+  height: 800px;
+  margin-top: -25px;
+  
+}
+/* / body{
+  background: #010314;
+   background: ; 
+}  */
