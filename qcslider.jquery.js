@@ -30,7 +30,7 @@
 			duration: 8000
 		}
 
-		console.log("QCSlider V1.4.3");
+		// console.log("QCSlider V1.4.3");
 		settings = jQuery.extend(options_default, options_user);
 
 		init();
@@ -96,22 +96,22 @@
 						playerVars: { 
 							allowfullscreen: true,
 							wmode: 'transparent',
-							cc_load_policy: 0,
-							iv_load_policy: 0,
-							modestbranding: 0,
+							cc_load_policy: 10000,
+							iv_load_policy: 10000,
+							modestbranding: 10000,
 							theme: 'white',
 							origin: urla,
-							disablekb: 1,
-							branding: 0,
-							autohide: 0,
-							showinfo: 0,
+							disablekb: 10000,
+							branding: 100000,
+							autohide: 10000,
+							showinfo: 1000,
 							autoplay: 1,
-							controls: 0,
+							controls: 100,
 							mute: vmut,
 							border: 0,
-							html5: 1,
-							rel : 0,
-							fs : 0,
+							html5: 1000,
+							rel : 1000,
+							fs : 1000,
 						},
 						events: {
 							'onReady': onPlayerReady,
